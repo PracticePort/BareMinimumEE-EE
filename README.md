@@ -1,4 +1,4 @@
-# BareMinimumEE-EE Warning + List Dictionary
+# BareMinimumEE-EE Warning 
 
 ## Known Issues:
 * Sources cited vary in depth by region and time period
