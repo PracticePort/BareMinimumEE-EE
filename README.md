@@ -1,6 +1,6 @@
-# BareMinimumEE-EE Warning 
+# The Following is Regarding the Respective Lists of Expulsion Events and Entrance Events
 
-**Under construction, 2nd sheet- Entrance Events
+**Under construction, 2nd sheet- Entrance Events. At this time, a draft of Expulsion Events is available. It will also see certain columns merged or dropped along with a cleaning of the description. 
 
 ## Known Issues:
 * Sources cited vary in depth by region and time period
