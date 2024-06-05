@@ -35,21 +35,4 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
 
-name: Update CSV
 
-on:
-  workflow_dispatch:
-    inputs:
-      DIFFERENT_CSV:
-        description: 'Is the CSV file different?'
-        required: true
-        default: 'false'
-
-jobs:
-  update-csv:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-      - name: Update CSV
-        run: | git config --global user.name "GitHub Actions" git config --global user.email "actions@github.com" timestamp=$(date +'%Y%m%d%H%M%S') branch_name="update-csv-$timestamp" git checkout -b "$branch_name" git add <replace_this_csv_filename> git commit -m "Update CSV file" git push origin "$branch_name" git checkout main git merge --no-ff "$branch_name" git push origin main # delete the temporary branch git branch -d "$branch_name" git push origin --delete "$branch_name"
